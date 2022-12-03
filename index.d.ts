@@ -67,4 +67,5 @@ declare namespace c {
     }
 }
 
-export = c.IConfig;
+export function loadConfig() : c.IConfig;
+//export = c.IConfig;
